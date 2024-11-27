@@ -1,8 +1,16 @@
 package com.nit.main;
 
-public class App {
-    public static void main(String[] args) 
+
+public class App
+{
+	public int sum(int x,int y)
+	{
+		return x+y;
+	}
+    public static void main(String[] args)
     {
-        System.out.println("Hello World!");
+    	App app =new App();
+    	int sum = app.sum(10,30);
+        System.out.println("sum::"+sum);
     }
 }
