@@ -4,8 +4,10 @@ public class UPIPayment
 {
 	public String payment()
 	{
-		System.out.println("UPIPayment.enclosing_method()");
-		return "Hrllo";
+  		System.out.println("UPIPayment.enclosing_method()");
+  		System.out.println("hii");   
+  		;
+    		return "Hello";
 	}
 
 }
